@@ -1,0 +1,201 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:100,200,300,400);
+@import url("../font/CODE Bold.otf");
+
+body {
+    font-family: 'CODE Bold', 'Lato', Calibri, Arial, sans-serif;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 5px;
+    background-color: white;;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: #f9b32f;
+    border: 5px solid #f9b32f;
+}
+.middle-parent {
+    position: relative;
+    min-height: 12vh;
+}
+
+.middle {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.content {
+    width: 100%;
+}
+
+.cover {
+    filter: grayscale(80%);
+    transition: 0.3s all linear;
+}
+
+.cover:hover {
+    filter: grayscale(10%);
+}
+
+.closeC {
+    position: fixed;
+    top: 2%;
+    right: 2%;
+    z-index: 100;
+}
+
+.heading {
+    text-align: center;
+    width: 100%;
+}
+
+.heading > h1 {
+    font-size: 8vh;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.tagline {
+    font-size: 130%;
+    font-weight: 300;
+}
+
+.side-bottom-bar {
+    margin-top: 20%;
+
+}
+
+
+.side-bottom-bar {
+    align-content: center;
+    padding: 2%;
+}
+
+.side-bar {
+    background-color: #ffcf4b;
+    color: #fff;
+    padding: 0;
+}
+
+.right-bar {
+    background-color: #f2f2f2;
+    padding: 10% 5%;
+}
+
+.right-bar .card {
+    padding-bottom: 10%;
+}
+
+.card .card-heading {
+    font-size: 300%;
+    color: #505050;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.card .card-text {
+    color: #808080;
+    font-size: 150%;
+    font-weight: 400;
+}
+
+@media screen and (min-width: 960px) {
+    .side-bar {
+        height: 100vh;
+    }
+
+    .right-bar {
+        height: 100vh;
+        overflow-y: scroll;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .side-bar {
+       
+    }
+}
+
+/*
+Button Hover Effect
+*/
+/* General button style (reset) */
+.btn {
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 300;
+    outline: none;
+    position: relative;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    width: 100%;
+    border-radius: 0;
+}
+
+.btn:after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+/* Button 1 */
+.btn-1 {
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+/* Button 1f */
+.btn-1f {
+    overflow: hidden;
+}
+
+.btn-1f:after {
+    width: 101%;
+    height: 0;
+    top: 50%;
+    left: 50%;
+    background: #fff;
+    opacity: 0;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.btn-1f:hover,
+.btn-1f:active {
+    color: #505050;
+}
+
+.btn-1f:hover:after {
+    height: 75%;
+    opacity: 1;
+}
+
+.btn-1f:active:after {
+    height: 130%;
+    opacity: 1;
+}

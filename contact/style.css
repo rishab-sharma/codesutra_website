@@ -1,0 +1,673 @@
+nav {
+	width: 50vw;
+	position: absolute;
+	top: 0;
+	left: 45vw;
+	right:5vw;
+	height: 7vh;
+	background: rgba(0, 0, 0, 0.3);
+	border-radius: 0 0 20px 20px;
+}
+
+nav ul, nav li, nav ul a {
+	margin:auto;
+	padding:0;
+	height:7vh;
+	line-height:7vh;
+	display: inline-block;
+}
+
+nav li a {
+	color: white !important;
+	text-decoration: none !important;
+}
+
+nav ul {
+	display:flex;
+	width: 50vw;
+	position: relative;
+}
+
+nav li {
+	font-family: lato;
+	font-size:1.3vw;
+    transition: 1s all ease;
+    cursor: pointer;
+}
+
+nav li a {
+    padding: 0 1.3vw;
+}
+
+nav li:hover {
+	background: rgba(0, 0, 0, 0.2);
+}
+
+#about, #sponsors, #events, #contact {
+	transition: all 0.5s ease;
+	margin-top: 8vh;
+	margin-bottom: -8vh;
+}
+
+#about:hover, #sponsors:hover, #events:hover, #contact:hover {
+	transform: scale(1.1);
+}
+
+#bg {
+	background-color: #A8D2DE;
+}
+
+.loader {
+	position: fixed;
+	z-index: 999999;
+	text-align: center;
+	display: block;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.6);
+}
+
+.loader img {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	max-width: 95vw;
+	max-height: 80vh;
+}
+
+.about-photo{
+	position: fixed;
+	top: 0;
+	height: 100vh;
+	width: auto;
+	transform: translate(-25%,0);
+}
+.about-photo img{
+	height: 100vh;
+	width: auto;
+}
+
+.top {
+	position: fixed;
+	top: 10px;
+}
+
+.left {
+	position: fixed;
+	left: 10px;
+}
+
+.right {
+	position: fixed;
+	right: 10px;
+}
+
+.bottom {
+	position: fixed;
+	bottom: 10px;
+}
+
+.logo {
+	max-width: 200px; 
+}
+
+.scene {
+	margin: 0;
+	padding: 0;
+}
+
+ul > li {
+	list-style: none;
+}
+
+.social-icon {
+	margin: 0;
+	padding: 0;
+	list-style-type: none; 
+}
+
+.social-icon li {
+	display: inline;
+}
+
+#fb {
+	color: rgb(78,113,168);
+}
+
+#twitter {
+	color: rgb(28,183,235);
+}
+
+#insta {
+	color: rgb(68,68,68);
+}
+
+#gplus {
+	color: rgb(227,65,31);
+}
+
+#youtube {
+	color: rgb(202,55,55);
+}
+
+#mail {
+	color: rgb(22,134,176);
+}
+
+@media (min-width: 700px) {
+	.logo {
+		left: 10px;
+		top: 10px;
+	}
+}
+
+
+@media (max-width: 700px) {
+	.logo {
+	    padding: 10px;
+	    margin: auto;
+	    display: block;
+	}
+
+	nav {
+	    width: 100vw;
+	    left: 0;
+	    right: 0;
+	    top: 86.6px;
+	    border-radius: 0;
+	}
+
+	nav ul {
+	    display: flex;
+	    width: 100vw;
+	}
+
+	nav li {
+		font-size: 2vw;
+		padding: 0 2vw;
+	}
+}
+
+@media (max-width:480px) {
+	nav li {
+		font-size: 2.8vww;
+	}
+}
+
+@media (max-width:480px) {
+
+	#passport {
+		max-width: 25px;
+		position: fixed;
+		bottom: 10px;
+		left: 2.5px;
+	}
+
+	#compass {
+		max-width: 20px;
+		position: fixed;
+		bottom: 5px;
+		left: 20px;
+	}
+
+	#blue-bag {
+		max-width: 75px;
+		position: fixed;
+		bottom: 5px;
+		left: 20px;
+	}
+
+	#phone {
+		max-width: 25px;
+		position: fixed;
+		bottom: 5px;
+		left: 80px;
+	}
+
+	#card {
+		max-width: 40px;
+		position: fixed;
+		bottom: 1px;
+		left: 92px;
+	}
+
+	#red-bag {
+		max-width: 120px;
+		position: fixed;
+		left: 100px;
+		bottom: 7px;
+	}
+
+	#camera {
+		max-width: 40px;
+		position: fixed;
+		left: 190px;
+		bottom: 3px;
+	}
+
+	#about {
+		max-width: 350px;
+		position: fixed;
+        top: 23%;
+		right: 3%;
+	}
+
+	#sponsors {
+		max-width: 350px;
+		position: fixed;
+        top: 35%;
+		left: 5%;
+	}
+
+	#events {
+		max-width: 350px;
+		position: fixed;
+        top: 48%;
+		left: 1%;
+	}
+
+	#contact {
+		max-width: 350px;
+		position: fixed;
+		bottom: 30vh;
+		right: 20px;
+	}
+} 
+
+@media (min-width:480px) {
+	#passport {
+		max-width: 50px;
+		position: fixed;
+		bottom: 15px;
+		left: 5px;
+	}
+
+	#compass {
+		max-width: 40px;
+		position: fixed;
+		left: 35px;
+		bottom: 10px;
+	}
+
+	#blue-bag {
+		max-width: 150px;
+		position: fixed;
+		left: 35px;
+		bottom: 10px;
+	}
+
+	#phone {
+		max-width: 40px;
+		position: fixed;
+		left: 160px;
+		bottom: 5px;
+	}
+
+	#card {
+		max-width: 60px;
+		position: fixed;
+		left: 190px;
+		bottom: 0px;
+	}
+
+	#red-bag {
+		max-width: 220px;
+		position: fixed;
+		left: 190px;
+		bottom: 10px;
+	}
+
+	#camera {
+		max-width: 80px;
+		position: fixed;
+		left: 350px;
+		bottom: 5px;
+	}
+
+	#about {
+		max-width: 350px;
+		position: fixed;
+		top: 100px;
+		right: 50px;
+	}
+
+	#sponsors {
+		max-width: 350px;
+		position: fixed;
+		top: 200px;
+		left: 150px;
+	}
+
+	#events {
+		max-width: 400px;
+		position: fixed;
+		top: 38vh;
+		left: 50px;
+	}
+
+	#contact {
+		max-width: 350px;
+		position: fixed;
+		bottom: 43vh;
+		right: 20px;
+	}
+} 
+
+@media (min-width:650px) {
+	#passport {
+		max-width: 50px;
+		position: fixed;
+		bottom: 15px;
+		left: 5px;
+	}
+
+	#compass {
+		max-width: 40px;
+		position: fixed;
+		left: 35px;
+		bottom: 10px;
+	}
+
+	#blue-bag {
+		max-width: 150px;
+		position: fixed;
+		left: 35px;
+		bottom: 10px;
+	}
+
+	#phone {
+		max-width: 40px;
+		position: fixed;
+		left: 160px;
+		bottom: 5px;
+	}
+
+	#card {
+		max-width: 60px;
+		position: fixed;
+		left: 190px;
+		bottom: 0px;
+	}
+
+	#red-bag {
+		max-width: 220px;
+		position: fixed;
+		left: 190px;
+		bottom: 10px;
+	}
+
+	#camera {
+		max-width: 80px;
+		position: fixed;
+		left: 350px;
+		bottom: 5px;
+	}
+
+	#about {
+		max-width: 450px;
+		position: fixed;
+		top: 100px;
+		right: 50px;
+	}
+
+	#sponsors {
+		max-width: 400px;
+		position: fixed;
+		top: 220px;
+		left: 150px;
+	}
+
+	#events {
+		max-width: 500px;
+		position: fixed;
+		top: 42vh;
+		left: 75px;
+	}
+
+	#contact {
+		max-width: 500px;
+		position: fixed;
+		bottom: 35vh;
+		right: 60px;
+	}
+} 
+
+@media (min-width:875px) {
+	#passport {
+		max-width: 70px;
+		position: fixed;
+		bottom: 15px;
+		left: 10px;
+	}
+
+	#compass {
+		max-width: 60px;
+		position: fixed;
+		left: 50px;
+		bottom: 10px;
+	}
+
+	#blue-bag {
+		max-width: 170px;
+		position: fixed;
+		left: 60px;
+		bottom: 10px;
+	}
+
+	#phone {
+		max-width: 50px;
+		position: fixed;
+		left: 225px;
+		bottom: 5px;
+	}
+
+	#card {
+		max-width: 70px;
+		position: fixed;
+		left: 275px;
+		bottom: 0px;
+	}
+
+	#red-bag {
+		max-width: 270px;
+		position: fixed;
+		left: 270px;
+		bottom: 10px;
+	}
+
+	#camera {
+		max-width: 100px;
+		position: fixed;
+		left: 500px;
+		bottom: 5px;
+	}
+
+	#about {
+		max-width: 600px;
+		position: fixed;
+		top: 25px;
+		right: 50px;
+	}
+
+	#sponsors {
+		max-width: 500px;
+		position: fixed;
+		top: 150px;
+		left: 150px;
+	}
+
+	#events {
+		max-width: 700px;
+		position: fixed;
+		top: 32vh;
+		right: 150px;
+	}
+
+	#contact {
+		max-width: 600px;
+		position: fixed;
+		bottom: 40vh;
+		right: 60px;
+	}
+} 
+
+@media (min-width:1200px) {
+	#passport {
+		max-width: 100px;
+		position: fixed;
+		bottom: 25px;
+		left:10px;
+	}
+
+	#compass {
+		max-width: 80px;
+		position: fixed;
+		left: 75px;
+		bottom: 10px;
+	}
+
+	#blue-bag {
+		max-width: 200px;
+		position: fixed;
+		left: 60px;
+		bottom: 10px;
+	}
+
+	#phone {
+		max-width: 70px;
+		position: fixed;
+		left: 225px;
+		bottom: 5px;
+	}
+
+	#card {
+		max-width: 100px;
+		position: fixed;
+		left: 275px;
+		bottom: 0px;
+	}
+
+	#red-bag {
+		max-width: 300px;
+		position: fixed;
+		left: 270px;
+		bottom: 10px;
+	}
+
+	#camera {
+		max-width: 125px;
+		position: fixed;
+		left: 500px;
+		bottom: 5px;
+	}
+
+
+	#about {
+		max-width: 700px;
+		position: fixed;
+		top: 25px;
+		right:100px;
+	}
+
+	#sponsors {
+		max-width: 700px;
+		position: fixed;
+		top: 150px;
+		left: 150px;
+	}
+
+	#events {
+		max-width: 800px;
+		position: fixed;
+		top: 35vh;
+		left: 500px;
+	}
+
+	#contact {
+		max-width: 700px;
+		position: fixed;
+		bottom: 30vh;
+		right: 100px;
+	}
+}
+
+/*
+#passport {
+	max-width: 7.3vw;
+	position: fixed;
+	bottom: 3.2vh;
+	left:0.7vw;
+}
+
+#compass {
+	max-width: 5.8vw;
+	position: fixed;
+	left: 5.5vw;
+	bottom: 1vh;
+}
+
+#blue-bag {
+    max-width: 15vw;
+    position: fixed;
+    left: 4vw;
+    bottom: 1vh;
+}
+
+#phone {
+	max-width: 5.1vw;
+	position: fixed;
+	left: 20.1vw;
+	bottom: 0.5vh;
+}
+
+#card {
+	max-width: 7.3vw;
+	position: fixed;
+	left: 20.1vw;
+	bottom: 0px;
+}
+
+#red-bag {
+	max-width: 300px;
+	position: fixed;
+	left: 20vw;
+	bottom: 1vh;
+}
+
+#camera {
+	max-width: 9.1vw;
+	position: fixed;
+	left: 36.6vw;
+	bottom: 0.5vh;
+}
+
+
+#about {
+	max-width: 700px;
+	position: fixed;
+	top: 25px;
+	right:100px;
+}
+
+#sponsors {
+	max-width: 51.2vw;
+	position: fixed;
+	top: 20vh;
+	left: 11vw;
+}
+
+#events {
+	max-width: 58.5vw;
+	position: fixed;
+	top: 35vh;
+	left: 36.6vw;
+}
+
+#contact {
+	max-width: 51.2vw;
+	position: fixed;
+	bottom: 30vh;
+	right: 7.3vw;
+}
+
+*/

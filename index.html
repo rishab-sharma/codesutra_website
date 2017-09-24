@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="author" content="@rishab-sharma">
+    <!-- Twitter Cards 
+    <meta name="twitter:card" content="Odyssey'17 | Annual Cultural Fest of IIIT-Delhi">
+    <meta name="twitter:site" content="@IIITDOdyssey">
+    <!--Open Graph
+    <meta property="og:title" content="Odyssey'17 | Annual Cultural Fest of IIIT-Delhi"/>
+    <meta property="og:url" content="http://odyssey.iiitd.edu.in/"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:description"
+          content="Odyssey is IIITD’s cultural festival that provides a platform for talent and competition in various fields. With a footfall of 3000+ students from Delhi-NCR region, we witnessed Euphoria perform on our campus. This year, with the theme of “Around the world in two days”, Odyssey will  will host several unique events in a wide array of categories, including Dance, Music, Theatre, and Digital Arts."/>
+    <meta property="og:image" content="http://odyssey.iiitd.edu.in/static/img/og-image-1.jpg"/>
+    <meta property="og:image:width" content="1200"/>
+    <meta property="og:image:height" content="630"/>
+    <meta property="og:image" content="http://odyssey.iiitd.edu.in/static/img/og-image-2.jpg"/>
+    <meta property="og:image:width" content="1200"/>
+    <meta property="og:image:height" content="630"/>
+    <meta property="og:image" content="http://odyssey.iiitd.edu.in/static/img/og-image-3.jpg"/>
+    <meta property="og:image:width" content="1200"/>
+    <meta property="og:image:height" content="630"/>
+    <meta property="og:image" content="http://odyssey.iiitd.edu.in/static/img/og-image-4.jpg"/>
+    <meta property="og:image:width" content="1200"/>
+    <meta property="og:image:height" content="630"/>
+    <meta property="fb:app_id" content="361553010885437"/>-->
+
+    <meta name="google-site-verification" content="vDuy64gCsdqy5k_UQclTx1Jb86yi_KLN2EHWT7luW4Q"/>
+    <title>CodeSutra</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css"
+          href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body id="bg">
+
+<div class="container">
+    <div>
+        <img src="logo.png" class="logo" style="height:180px;margin-top:20px">
+    </div>
+    <nav>
+    <ul>
+    <li>&nbsp;</li>
+    <li><a href="pattern/pattern.html">Pattern</a></li>
+<!--     <li><a href="/bobby">Workshop</a></li>
+ -->    <li><a href="college/college-trophy.html">College Trophy</a></li>
+       <li><a href="/schedule">Schedule</a></li>
+
+        <li><a href="contact/contact.html">INVITE US</a></li>
+    <li>&nbsp;</li>
+    </nav>
+
+    <ul id="scene" class="scene">
+        <li class="layer" data-depth="0.60"><img src="blue-bag.png"
+                                                 id="blue-bag" alt="Travel - Odyssey IIIT Delhi"></li>
+      <!--  <li class="layer" data-depth="0.75"><img src="passport.png"
+                                                 id="passport" alt="Travel - Odyssey IIIT Delhi"></li>
+      <!--  <li class="layer" data-depth="0.90"><img src="compass.png"
+                                                 id="compass"
+                                                 alt="around the world and navigation - Odyssey IIIT Delhi"></li>-->
+        <li class="layer" data-depth="0.50"><img src="red-bag.png"
+                                                 id="red-bag" alt="around the world with red bag - Odyssey IIIT Delhi">
+        </li>
+        <li class="layer" data-depth="0.80"><img src="phone.png"
+                                                 id="phone" alt="around the world with phone - Odyssey"></li>
+        <li class="layer" data-depth="1.00"><img src="card.png"
+                                                 id="card"></li>
+        <li class="layer" data-depth="0.90"><img src="camera.png"
+                                                 id="camera" alt="Photography- Odyssey "></li>
+        <li class="layer" data-depth="0.70">
+            <a href="#aboutModal" id="about-modal"><img src="about.png"
+                                                        id="about" alt="About Us - Odyssey"></a>
+        </li>
+        <li class="layer" data-depth="0.50">
+            <a href="#sponsorModal" id="sponsor-modal"><img
+                    src="sponsors.png" id="sponsors"
+                    alt="Sponsor Us - Odyssey"></a>
+        </li>
+        <li class="layer" data-depth="0.90">
+            <a href="/events/"><img src="events.png"
+                                                   id="events" alt="Events at Odyssey "></a>
+        </li>
+        <li class="layer" data-depth="0.60">
+            <a href="contact/contact.html" id="contacts-modal"><img
+                    src="contact.png" id="contact"
+                    alt="Contact Us - Odyssey"></a>
+        </li>
+    </ul>
+    <ul class="social-icon bottom right">
+        <li><a href="https://www.facebook.com/unitingcoders/" target="_blank">
+					<span class="fa-stack fa-lg">
+					<i class="fa fa-circle fa-stack-2x" id="fb"></i>
+					<i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+					</span>
+        </a>
+        </li>
+        <li><a href="https://twitter.com" target="_blank">
+					<span class="fa-stack fa-lg">
+					<i class="fa fa-circle fa-stack-2x" id="twitter"></i>
+					<i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+					</span>
+        </a>
+        </li>
+        <li><a href="https://www.instagram.com" target="_blank">
+					<span class="fa-stack fa-lg">
+					<i class="fa fa-circle fa-stack-2x" id="insta"></i>
+					<i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+					</span>
+        </a>
+        </li>
+        <li><a href="https://plus.google.com" target="_blank">
+					<span class="fa-stack fa-lg">
+					<i class="fa fa-circle fa-stack-2x" id="gplus"></i>
+					<i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
+					</span></a>
+        </li>
+        <li><a href="https://www.youtube.com" target="_blank">
+					<span class="fa-stack fa-lg">
+					<i class="fa fa-circle fa-stack-2x" id="youtube"></i>
+					<i class="fa fa-youtube fa-stack-1x fa-inverse"></i>
+					</span>
+        </a>
+        </li>
+        <li><a href="www.gmail.com" target="_blank">
+					<span class="fa-stack fa-lg">
+					<i class="fa fa-circle fa-stack-2x" id="mail"></i>
+					<i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+					</span>
+        </a>
+        </li>
+    </ul>
+    <!--	<div class="bottom right">
+				<img src="/static/img/social-icons.png" class="icon">
+				</div>-->
+</div>
+<div id="aboutModal">
+    <!--THIS IS IMPORTANT!to close the modal, the class name has to match the name given on the ID  class="close-animatedModal" -->
+    <div class="close-aboutModal close" style="z-index: 10000000000000000">
+        <img class="right" height="48px" width="48px" src="close.png">
+    </div>
+    <div class="modal-content" style="width: 100%">
+        <div class="about-photo">
+            <img src="about-modal.jpg" alt="Odyssey Logo | with buildings">
+        </div>
+        <div class="cen" style="width: 100%">
+            <h1 class="titleM" style="width: 100%; text-align: center">ABOUT US</h1>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 hidden-xs hidden-sm visible-md visible-lg ">
+                    </div>
+                    <div class="col-md-8 mainText">
+                        <p>
+                           <b> CodeSutra </b>is a global educational
+							 initiative to train , inspire , aware and group students and software engineers from 
+							 across the globe who are interested in competing and improving by participation in
+							 various competition and interestingly designed contests of domestic, national and international level.
+                        </p>
+                        <p>
+                            We provide a platform for programmers/coders to practice , 
+							discuss and show off their skills in their suitable computer programming language .
+							 We test the students on the basis of their monthly and yearly contests and competition 
+							 to check and optimise their skills to the fullest of their efficiency. 
+							 The test are designed under the guidance of known and experienced coders and educational firms.
+                        </p>
+                        <p>
+                            A Happy Coding to you
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="sponsorModal">
+    <div class="close-sponsorModal close" style="z-index: 999999999; position: fixed; cursor: pointer">
+        <img class="right" height="48px" width="48px" src="close.png">
+    </div>
+    <div class="modal-content" style="width: 100%">
+        <style>
+            .row {
+                text-align: center;
+            }
+
+            .row img {
+                max-width: 100%;
+            }
+        </style>
+        <div class="cen" style="width: 100%">
+            <h1 class="titleM" style="width: 100%; text-align: center">OUR SPONSORS</h1>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12 tagline">
+                        Contribute to be a part of THE NEXT BIG Coding Platform in all of India.
+                    </div>
+                </div>
+                <div class="row">
+                    <form method="post" action="http://formspree.io/odyssey@iiitd.ac.in" class="center-block">
+                        <input type="hidden" name="_next" value="http://odyssey.iiitd.edu.in/"/>
+                        <div class="col-md-4 col-md-offset-3 middle-parent"
+                             style="margin-bottom: 0; padding-bottom: 0;">
+                            <input type="email" name="email" placeholder="Your Email" id="mail1" class="middle"
+                                   style=" min-width: 400px;">
+                        </div>
+                        <div class="col-md-2 middle-parent" style="margin-top: 0; padding-top: 0;">
+                            <input type="submit" value="Sponsor Us" id="submit-button" style="color: #222"
+                                   class="btn btn-1 btn-1f text-center middle">
+                        </div>
+                    </form>
+                </div>
+                <div class="row">
+                    <div class="filler col col-sm-4 col-xs-4"></div>
+                    <div class="col col-md-4 col-xs-4" style="font-size: 160%; margin-top: 10%">
+                        TITLE SPONSOR
+                    </div>
+                    <div class="filler col col-sm-4 col-xs-4"></div>
+                </div>
+                <!--<div class="row">
+                    <div class="filler col col-sm-4 col-xs-4"></div>
+                    <a href="http://www.sahadevelopers.com/">
+                        <img class="col col-sm-4 col-xs-4" src="SAHA.png"/>
+                    </a>
+                    <div class="filler col col-sm-4 col-xs-4"></div>
+                </div>
+                <div class="row">
+                    <div class="filler col col-sm-2 col-xs-2"></div>
+                    <div class="col col-sm-4 col-xs-4" style="font-size: 160%; margin-top: 10%">
+                        POWERED BY
+                    </div>
+                    <div class="col col-sm-4 col-xs-4" style="font-size: 160%; margin-top: 10%">
+                        DELIVERY PARTNER
+                    </div>
+                    <div class="filler col col-sm-2 col-xs-2"></div>
+                </div>
+                <div class="row">
+                    <div class="filler col col-sm-2 col-xs-2"></div>
+                    <a href="http://codingblocks.com">
+                        <img class="col col-sm-4 col-xs-4" src="coding blocks.png"/>
+                    </a>
+                    <a href="http://aramex.com/home">
+                        <img class="col col-sm-4 col-xs-4" src="aramex.png"/>
+                    </a>
+                    <div class="filler col col-sm-2 col-xs-2"></div>
+                </div>
+                <div class="row">
+                    <div class="filler col col-sm-1 col-xs-1"></div>
+                    <div class="col col-sm-5 col-xs-5" style="font-size: 160%; margin-top: 10%">
+                        BANKING PARTNERS
+                    </div>
+                    <div class="col col-sm-5 col-xs-5" style="font-size: 160%; margin-top: 10%">
+                        GOVERNMENT PARTNERS
+                    </div>
+                    <div class="filler col col-sm-1 col-xs-1"></div>
+                </div>
+                <div class="row">
+                    <div class="filler col col-sm-1 col-xs-1"></div>
+                    <div class="col col-sm-5 col-xs-5">
+                        <img src="/static/img/sponsors/idbi.png"/><br/><br/>
+                        <img src="/static/img/sponsors/PNB.png"/>
+                    </div>
+                    <div class="col col-sm-5 col-xs-5">
+                        <br>
+                        <br>
+                        <img src="/static/img/sponsors/meity.png"/>
+                    </div>
+                    <div class="filler col col-sm-1 col-xs-1"></div>
+                </div>
+                <div class="row">
+                    <div class="col col-sm-3 col-xs-3" style="font-size: 160%; margin-top: 10%">
+                        DANCE CATEGORY PARTNER
+                    </div>
+                    <div class="col col-sm-3 col-xs-3" style="font-size: 160%; margin-top: 10%">
+                        INSTITUTE PARTNER
+                    </div>
+                    <div class="col col-sm-3 col-xs-3" style="font-size: 160%; margin-top: 10%">
+                        STUDY PARTNER
+                    </div>
+                    <div class="col col-sm-3 col-xs-3" style="font-size: 160%; margin-top: 10%">
+                        LITERARY PARTNER
+                    </div>
+                </div>
+                <div class="row">
+                    <a href="http://www.zenithdancetroupe.com">
+                        <img class="col col-sm-3 col-xs-3" src="/static/img/sponsors/zenith.png"/>
+                    </a>
+                    <img class="col col-sm-3 col-xs-3" src="/static/img/sponsors/indus.png"/>
+                    <div class="col col-sm-3 col-xs-3">
+                        <a href="https://www.startuped.net/">
+                            <img src="/static/img/sponsors/StartUpEd.png"/>
+                        </a>
+                        <div style="font-size: 160%; margin-top: 10%">
+                            MERCHANDISE PARTNER
+                        </div>
+                        <a href="https://10digi.com/">
+                            <img src="/static/img/sponsors/logo.png"/>
+                        </a>
+                    </div>
+                    <a href="http://rubricpublishing.com/">
+                        <img class="col col-sm-3 col-xs-3" src="/static/img/sponsors/rubrik.jpg"/>
+                    </a>
+                </div>
+                <div class="row">
+                    <div class="col col-sm-3 col-xs-3" style="font-size: 160%; margin-top: 10%">
+                        TECHNOLOGY PARTNER
+                    </div>
+                    <div class="col col-sm-3 col-xs-3" style="font-size: 160%; margin-top: 10%">
+                        EVENT PARTNER
+                    </div>
+                    <div class="col col-sm-3 col-xs-3" style="font-size: 160%; margin-top: 10%">
+                        INSURANCE PARTNER
+                    </div>
+                    <div class="col col-sm-3 col-xs-3" style="font-size: 160%; margin-top: 10%">
+                        COACHING PARTNER
+                    </div>
+                </div>
+                <div class="row">
+                    <a href="http://xtracareit.com">
+                        <img class="col col-sm-3 col-xs-3" src="/static/img/sponsors/xtracare.png"/>
+                    </a>
+                    <a href="http://www.ntpc.co.in/">
+                        <img class="col col-sm-3 col-xs-3" src="/static/img/sponsors/ntpc.png"/>
+                    </a>
+                    <a href="https://www.licindia.in/">
+                        <img class="col col-sm-3 col-xs-3" src="/static/img/sponsors/lic.png"/>
+                    </a>
+                    <div class="col col-sm-3 col-xs-3">
+                        <a href="https://www.licindia.in/">
+                            <img src="/static/img/sponsors/ies-master.png"/>
+                        </a>
+                        <br><br>
+                        <a href="http://whizdomedu.com/">
+                            <img src="/static/img/sponsors/whizdom.jpg"/>
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col col-sm-3 col-xs-3" style="font-size: 160%; margin-top: 10%">
+                        ONLINE COVERAGE PARTNER
+                    </div>
+                    <div class="col col-sm-3 col-xs-3" style="font-size: 160%; margin-top: 10%">
+                        FUN PARTNER
+                    </div>
+                    <div class="col col-sm-3 col-xs-3" style="font-size: 160%; margin-top: 10%">
+                        INTERNSHIPS PARTNERS
+                    </div>
+                    <div class="col col-sm-3 col-xs-3" style="font-size: 160%; margin-top: 10%">
+                        STUDENT PARTNER
+                    </div>
+                </div>
+                <div class="row">
+                    <a href="http://atkt.in">
+                        <img class="col col-sm-3 col-xs-3" src="/static/img/sponsors/atkt.png"/>
+                    </a>
+                    <a href="http://www.appugharexpress.com/">
+                        <img class="col col-sm-3 col-xs-3" src="/static/img/sponsors/Appu Ghar Express.png"/>
+                    </a>
+                    <a href="http://www.twenty19.com/">
+                        <img class="col col-sm-3 col-xs-3" src="/static/img/sponsors/twenty19.png"/>
+                    </a>
+                    <a href="http://http://frapp.in/">
+                        <img class="col col-sm-3 col-xs-3" src="/static/img/sponsors/frapp.png"/>
+                    </a>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 tagline" style="font-size: 160%; margin-top: 10%">
+                        EVENT PARTNERS
+                    </div>
+                </div>
+                <div class="row">
+                    <a href="https://inkmonk.com/">
+                        <img class="col col-sm-3 col-xs-3" src="/static/img/sponsors/event/inkmonk.png"/>
+                    </a>
+                    <img class="col col-sm-3 col-xs-3" src="/static/img/sponsors/event/mtvflyp.png"/>
+                    <img class="col col-sm-3 col-xs-3" src="/static/img/sponsors/event/sketch.png"/>
+                    <a href="http://www.dcop.in/">
+                        <img class="col col-sm-3 col-xs-3" src="/static/img/sponsors/event/dcop.jpg"/>
+                    </a>
+                </div>
+                <div class="row">
+                    <a href="http://furtadosonline.com">
+                      <img class="col col-sm-4 col-xs-4" src="/static/img/sponsors/event/Furtado.jpg"/>
+                    </a>
+                    <a href="http://muslate.com">
+                        <img class="col col-sm-4 col-xs-4" src="/static/img/sponsors/event/muslate.png"/>
+                    </a>
+                    <a href="http://academistic.com">
+                        <img class="col col-sm-4 col-xs-4" src="/static/img/sponsors/event/academisitic.png"/>
+                    </a>
+                </div>
+                <div class="row">
+                    <a href="http://studentgiri.com">
+                        <img class="col col-sm-4 col-xs-4" src="/static/img/sponsors/event/studentgiri.png"/>
+                    </a>
+                    <img class="col col-sm-2 col-xs-2" src="/static/img/sponsors/event/totegallore.png"/>
+                    <img class="col col-sm-2 col-xs-2" src="/static/img/sponsors/event/kcloud.png"/>
+                    <a href="http://valet2you.com">
+                        <img class="col col-sm-2 col-xs-2" src="/static/img/sponsors/event/valet2you.png"/>
+                    </a>
+                    <a href="http://www.kakcho.com/">
+                        <img class="col col-sm-2 col-xs-2" src="/static/img/sponsors/event/kakcho.png"/>
+                    </a>
+                </div>
+                <div class="row">
+                    <div class="filler col col-sm-1 col-xs-1"></div>
+                    <img class="col col-sm-4 col-xs-4" src="/static/img/sponsors/event/invision_logo.png"/>
+                    <img class="col col-sm-2 col-xs-2" src="/static/img/sponsors/event/ntpc.png"/>
+                    <a href="http://quantumsportscenter.com">
+                        <img class="col col-sm-2 col-xs-2" src="/static/img/sponsors/event/Quantum.png"/>
+                    </a>
+                    <a href="https://www.huionindia.com/">
+                        <img class="col col-sm-2 col-xs-2" src="/static/img/sponsors/event/huion_logo.jpg"/>
+                    </a>
+                    <div class="filler col col-sm-1 col-xs-1"></div>
+                </div>
+                <div class="row">
+                    <div class="filler col col-sm-3 col-xs-3"></div>
+                    <a href="http://futureforward.in/">
+                        <img class="col col-sm-3 col-xs-3" src="/static/img/sponsors/event/future-forward.png"/>
+                    </a>
+                    <img class="col col-sm-3 col-xs-3" src="/static/img/sponsors/event/superstar-cafe.png"/>
+                    <div class="filler col col-sm-3 col-xs-3"></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 tagline" style="font-size: 160%; margin-top: 10%">
+                        ONLINE MEDIA PARTNERS
+                    </div>
+                </div>
+                <div class="row">
+                    <a href="http://eventzerz.com">
+                    <img class="col col-sm-3 col-xs-3" src="/static/img/sponsors/OSM/eventzerz.png"/>
+                    </a>
+                    <a href="http://duexpress.in">
+                    <img class="col col-sm-3 col-xs-3" src="/static/img/sponsors/OSM/DU_express.png"/>
+                    </a>
+                    <a href="http://campusdrift.com">
+                    <img class="col col-sm-3 col-xs-3" src="/static/img/sponsors/OSM/campusdrift.png"/>
+                    </a>
+                    <a href="http://allevents.in">
+                    <img class="col col-sm-3 col-xs-3" src="/static/img/sponsors/OSM/All events.jpg"/>
+                    </a>
+                </div>
+                <div class="row">
+                    <a href="http://beingstudent.com">
+                    <img class="col col-sm-5 col-xs-5" src="/static/img/sponsors/OSM/beingstudent.png"/>
+                    </a>
+                    <a href="http://trackampus.com">
+                    <img class="col col-sm-4 col-xs-4" src="/static/img/sponsors/OSM/Trackampus.jpg"/>
+                    </a>
+                    <a href="http://festavesta.com">
+                    <img class="col col-sm-3 col-xs-3" src="/static/img/sponsors/OSM/festavesta.png"/>
+                    </a>
+                </div>
+                <div class="row">
+                    <a href="http://knowafest.com">
+                    <img class="col col-sm-4 col-xs-4" src="/static/img/sponsors/OSM/knowafest.png"/>
+                    </a>
+                    <a href="http://fuccha.in">
+                    <img class="col col-sm-4 col-xs-4" src="/static/img/sponsors/OSM/fuccha.png"/>
+                    </a>
+                    <a href="http://festpav.in">
+                    <img class="col col-sm-4 col-xs-4" src="/static/img/sponsors/OSM/festpav.png"/>
+                    </a>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 tagline" style="font-size: 160%; margin-top: 10%">
+                        PAST SPONSORS
+                    </div>
+                </div>
+                <img src="/static/img/previous-sponsors.jpg" width="100%"
+                     alt="Sponsors of Odyssey">
+            </div>-->
+        </div>
+    </div>
+</div>
+<link rel="stylesheet" href="modal.css">
+<link rel="stylesheet" href="animate.css">
+<script src="modernizr.custom.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="bootstrap.min.js"></script>
+
+<script src="main.js"></script>
+<script src="toucheffects2.js"></script>
+<script src="animatedModal.min.js"></script>
+<script>
+    $("#about-modal").animatedModal({
+        modalTarget: 'aboutModal',
+        animatedIn: 'fadeIn',
+        animatedOut: 'fadeOut',
+        color: '#eee',
+        overflow: 'scroll'
+    });
+    $("#sponsor-modal").animatedModal({
+        modalTarget: 'sponsorModal',
+        animatedIn: 'fadeIn',
+        animatedOut: 'fadeOut',
+        color: '#fff',
+        overflow: 'scroll'
+    });
+</script>
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-90355797-1', 'auto');
+    ga('send', 'pageview');
+</script>
+<script type="application/ld+json">
+			{
+			"@context": "http://www.schema.org",
+			"@type": "WebSite",
+			"name": "Odyssey",
+			"alternateName": "Odyssey IIIT D",
+			"url": "http://odyssey.iiitd.edu.in/",
+			 "keywords":"Odyssey, Odyssey IIIT D, Odyssey IIITD, Odyssey IIIT, Cultural fest of IIIT D, Cultral fest in Delhi"
+			}
+
+
+</script>
+<script type="application/ld+json">
+			{
+			"@context": "http://www.schema.org",
+					"@type": "Festival",
+					"name": "Odyssey",
+					"@id": "http://odyssey.iiitd.edu.in/",
+					"url": "http://odyssey.iiitd.edu.in/",
+					"sameAs": [
+				"https://www.facebook.com/odyssey.iiitd/",
+				"https://plus.google.com/104900525075222914073",
+				"https://twitter.com/IIITDOdyssey",
+				"https://www.instagram.com/iiitdodyssey/",
+				"https://www.youtube.com/channel/UCO-faubxbzjAqka5Po5IgmQ"
+			],
+			  "startDate": "2017-03-24T08:00",
+			"endDate": "2017-03-25T23:59",
+					"description": "Odyssey is IIITD’s cultural festival that provides a platform for talent and competition in various fields. This year, with the theme of “Around the world in two days”, Odyssey will  will host several unique events in a wide array of categories, including Dance, Music, Theatre, and Digital Arts.",
+					"location": {
+				"@type": "Place",
+						"name": "IIIT D",
+						"alternateName": "IIIT Delhi",
+						"sameAs": "https://www.iiitd.ac.in/",
+						"address": {
+					"@type": "PostalAddress",
+							"streetAddress": " Indraprastha Institute of Information Technology, Okhla Industrial Estate, Phase III, (Near Govindpuri Metro Station) New Delhi, India",
+							"addressLocality": "New Delhi",
+							"addressRegion": "Delhi",
+							"postalCode": "110020",
+							"addressCountry": "India"
+				}
+			},
+			"typicalAgeRange": "15-30",
+					"offers": {
+				"@type": "Offer",
+						"description": "Event Ticket",
+						"url": "https://goo.gl/forms/TnvdluxSpQm54LLw2",
+						"price": "0"
+			}
+			}	
+
+
+</script>
+</body>
+</html>
